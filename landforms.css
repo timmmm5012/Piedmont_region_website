@@ -1,0 +1,469 @@
+.landforms-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.landforms-navbar-interactive {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: space-between;
+  background-color: rgba(217, 217, 217, 0.1);
+}
+.landforms-navlink {
+  display: contents;
+}
+.landforms-text {
+  text-decoration: none;
+}
+.landforms-desktop-menu {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+.landforms-links {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.landforms-navlink1 {
+  text-decoration: none;
+}
+.landforms-navlink2 {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.landforms-navlink3 {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.landforms-navlink4 {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.landforms-navlink5 {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.landforms-burger-menu {
+  display: none;
+}
+.landforms-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.landforms-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.landforms-nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.landforms-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.landforms-logo {
+  height: 2rem;
+}
+.landforms-close-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.landforms-icon02 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.landforms-links1 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.landforms-text01 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.landforms-text02 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.landforms-text03 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.landforms-text04 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.landforms-text05 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.landforms-buttons {
+  display: flex;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.landforms-login {
+  margin-right: var(--dl-space-space-twounits);
+}
+.landforms-icon04 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.landforms-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.landforms-icon08 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.landforms-container1 {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  justify-content: center;
+  background-image: url('https://stonemountainpark.com/wp-content/uploads/2021/08/SMP22_GENERAL_ScopeMountain_DesktopHero-1190x500.png');
+  background-position: center;
+}
+.landforms-text06 {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  height: 100%;
+  padding: 220px;
+  font-size: 48px;
+  align-self: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+.landforms-features {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  max-width: 100%;
+  min-width: 100%;
+  align-items: center;
+  flex-direction: column;
+}
+.landforms-text07 {
+  font-size: 3rem;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.landforms-text10 {
+  color: var(--dl-color-gray-700);
+  width: 75%;
+  font-size: 1.15rem;
+  text-align: center;
+}
+.landforms-container2 {
+  width: 100%;
+  display: grid;
+  grid-gap: var(--dl-space-space-twounits);
+  margin-top: var(--dl-space-space-sixunits);
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.landforms-gallery-card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.landforms-image {
+  top: 0px;
+  left: 0px;
+  right: auto;
+  width: 100%;
+  bottom: auto;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+.landforms-container3 {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  opacity: 0;
+  padding: var(--dl-space-space-twounits);
+  z-index: 1;
+  transition: 0.3s;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.9));;
+}
+.landforms-container3:hover {
+  opacity: 1;
+}
+.landforms-heading {
+  color: var(--dl-color-gray-white);
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.landforms-text11 {
+  color: var(--dl-color-gray-white);
+  text-align: center;
+}
+.landforms-gallery-card1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.landforms-image1 {
+  top: 0px;
+  left: 0px;
+  right: auto;
+  width: 100%;
+  bottom: auto;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+.landforms-container4 {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  opacity: 0;
+  padding: var(--dl-space-space-twounits);
+  z-index: 1;
+  transition: 0.3s;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.9));;
+}
+.landforms-container4:hover {
+  opacity: 1;
+}
+.landforms-heading1 {
+  color: var(--dl-color-gray-white);
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.landforms-text12 {
+  color: var(--dl-color-gray-white);
+  text-align: center;
+}
+.landforms-gallery-card2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.landforms-image2 {
+  top: 0px;
+  left: 0px;
+  right: auto;
+  width: 100%;
+  bottom: auto;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+.landforms-container5 {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  opacity: 0;
+  padding: var(--dl-space-space-twounits);
+  z-index: 1;
+  transition: 0.3s;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.9));;
+}
+.landforms-container5:hover {
+  opacity: 1;
+}
+.landforms-heading2 {
+  color: var(--dl-color-gray-white);
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.landforms-text13 {
+  color: var(--dl-color-gray-white);
+  text-align: center;
+}
+.landforms-gallery-card3 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.landforms-image3 {
+  top: 0px;
+  left: 0px;
+  right: auto;
+  width: 100%;
+  bottom: auto;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+.landforms-container6 {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  opacity: 0;
+  padding: var(--dl-space-space-twounits);
+  z-index: 1;
+  transition: 0.3s;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.9));;
+}
+.landforms-container6:hover {
+  opacity: 1;
+}
+.landforms-heading3 {
+  color: var(--dl-color-gray-white);
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.landforms-text14 {
+  color: var(--dl-color-gray-white);
+  text-align: center;
+}
+@media(max-width: 1366px) {
+  .landforms-desktop-menu {
+    flex-direction: row;
+  }
+  .landforms-links {
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+}
+@media(max-width: 991px) {
+  .landforms-text07 {
+    text-align: center;
+  }
+  .landforms-text10 {
+    text-align: center;
+  }
+  .landforms-container2 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media(max-width: 767px) {
+  .landforms-navbar-interactive {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .landforms-desktop-menu {
+    display: none;
+  }
+  .landforms-burger-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .landforms-text01 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .landforms-text02 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .landforms-text03 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .landforms-text04 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .landforms-text05 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .landforms-features {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .landforms-text07 {
+    text-align: center;
+  }
+}
+@media(max-width: 479px) {
+  .landforms-navbar-interactive {
+    padding: var(--dl-space-space-unit);
+  }
+  .landforms-mobile-menu {
+    padding: 16px;
+  }
+  .landforms-features {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .landforms-container2 {
+    grid-template-columns: 1fr;
+  }
+  .landforms-heading {
+    align-self: center;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .landforms-heading1 {
+    align-self: center;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .landforms-heading2 {
+    align-self: center;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .landforms-heading3 {
+    align-self: center;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
